@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    display: grid;
+    height: 260px;
+    background-color:rgb(184, 149, 149);
+    grid-template-columns: repeat(10,1fr);
+    align-items: center;
+}
+
+.navbar .logo{
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 180px;
+    padding-left: 60px;
+}
+
+
+.navbar .menu{
+    grid-column: 3/8;
+    display:flex ;
+    justify-content: space-between;
+    
+}
+
+
+.navbar .menu li{
+    list-style: none;
+}
+
+.navbar .menu a{
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(233, 233, 32);
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: whitesmoke;
+}
+
+.navbar .herramientas{
+    display: flex;
+    justify-content: space-evenly;
+    grid-column: 9/10;
+}
+
+.herramientas img{
+    width: 20px;
+}
+
+
+.navbar .burguer{
+    display: none;
+}
+
+
+/*main*/
+
+.flex-contenedor{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    margin-top: 30px;
+    background-image: linear-gradient( 92.7deg,  rgba(245,212,212,1) 8.5%, rgba(252,251,224,1) 90.2% );
+    width: 100%;
+    height: 400px;
+    
+}
+
+
+.caja1 img{
+    width: 280x;
+    height: 280px;
+}
+
+.caja2 img{
+    width: 280x;
+    height: 280px;
+}
+
+.caja3 img{
+    width: 280x;
+    height: 280px;
+}
+
+.caja4 img{
+    width: 280x;
+    height: 280px;
+}
+
+
+.caja{
+    margin: 25px;
+}
+
+.caja p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*footer*/
+
+.pieDepagina{
+    display: grid;
+    height: 120px;
+    align-items: center;
+    background-color: rgb(165, 161, 161);
+    color: yellow;
+    grid-template-columns: 3,1fr;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+    "laflorita derechos seguinos"
+    "laflorita derechos redes"
+}
+
+.seguinos{
+    grid-area: seguinos;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    animation-name: flash;
+    animation-duration: 5s;
+
+}
+
+
+.pieDepagina .laflorita{
+    grid-area: laflorita;
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado{
+    animation-name: flash;
+    animation-duration: 5s;
+}
+
+.pieDepagina .derechos{
+    grid-area: derechos;
+    display: flex;
+    justify-content: center;
+}
+
+.pieDepagina .redes {
+    grid-area: redes;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes img{
+    width: 20px;
+}
+
+@media screen and (max-width: 600px) {
+.navbar{
+    position: relative;
+}
+
+.navbar .herramientas img{
+    display: none;
+}
+
+.navbar .herramientas .menuHamb{
+    display: block;
+    grid-column: 7/8;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.navbar .menu{
+        display: none;
+    }
+
+.flex-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.caja3{
+    grid-row: 2/3;
+}
+
+.caja4{
+    grid-row: 2/3;
+}
+
+.caja p{
+    font-size: 12px;
+}
+
+.pieDepagina{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.pieDepagina .laflorita{
+    font-size: 12px;
+}
+
+.pieDepagina .derechos{
+    grid-row: 2/3;
+}
+
+.seguinos{
+    display: none;
+}
+}
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+
+
+
