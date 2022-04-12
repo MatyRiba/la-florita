@@ -176,12 +176,18 @@ p{
     grid-area: laflorita;
     display: flex;
     justify-content: center;
+    color: black;
+    font-size: 18px;
+    animation-name: bounce;
+    animation-duration: 3s;
 }
 
 .pieDepagina .derechos{
     grid-area: derechos;
     display: flex;
     justify-content: center;
+    color: black;
+    font-size: 14px;
 }
 
 .pieDepagina .redes{
