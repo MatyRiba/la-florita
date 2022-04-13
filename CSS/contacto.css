@@ -1,3 +1,13 @@
+.navbar-brand{
+    width: 120px;
+}
+
+.container{
+    width: 50%;
+}
+
+
+/*
 .logo{
     display: flex;
     justify-content: center;
@@ -54,7 +64,7 @@ a:hover{
     background-color: rgb(185, 168, 185);
     color: white;
 }
-
+*/
 
 .input:hover{
     color: rgb(108, 192, 164);
