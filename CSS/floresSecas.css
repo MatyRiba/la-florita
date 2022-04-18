@@ -11,8 +11,10 @@
     display: grid;
     grid-template-columns: repeat(10,1fr);
     align-items: center;
-    background-image: linear-gradient( 92.7deg,  rgba(245,212,212,1) 8.5%, rgba(252,251,224,1) 90.2% );
+    background-color: grey;
 }
+
+
 
 .navbar .logo{
     width: 180px;
@@ -43,7 +45,7 @@
 }
 
 a:hover{
-    background-color: rgb(185, 168, 185);
+    background-color: yellow;
     color: white;
 
 }
@@ -110,6 +112,7 @@ a:hover{
     display: grid;
     height: 120px;
     align-items: center;
+    background-color: grey;
     color: yellow;
     grid-template-columns: 3,1fr;
     grid-template-rows: repeat(2,1fr);
